@@ -1,0 +1,79 @@
+
+body {
+background:linear-gradient(45deg,purple 10%,pink 90%);
+display:flex;
+width:100vw;
+height:100vh;
+justify-content:center;
+align-items:center;
+
+
+}
+.container{
+width:80%;
+height:auto;
+max-width:500px;
+max-width:1000px;
+overflow-y:auto;
+border-radius:15px;
+background-color:rgba(255,255,255,.5) ;
+padding:10% 5%;
+}
+.container .keyword{
+	width:100%;
+	height:30px;
+	padding:0;
+}
+.container .keyword input {
+background-color:rgba(255,255,255,.5) ;
+box-sizing:border-box;
+height:100%;
+margin:0;
+border-bottom-left-radius:5px;
+border-top-left-radius:5px;
+border:none;
+padding-left:10px;
+}
+.container .keyword input:focus  {
+border:none;
+outline:none;
+}
+.container .keyword button{
+border:2px solid purple;
+box-sizing:border-box;
+margin:0;
+height:100%;
+border-bottom-right-radius:5px;
+border-top-right-radius:5px;
+margin-left:-5px;
+background-color:pink;
+}
+.container  .todo-wrapper {
+width:90%;
+height:auto;
+background:rgba(255,255,255,.3) ;
+border-radius:15px;
+}
+ 
+.container  .todo-wrapper ul li{
+margin-bottom:1.25rem;
+padding:10px;
+color:black;
+font-weight:bolder;
+font-family:sans-serif;
+}
+.container  .todo-wrapper ul li  .delete{
+background-color:#dd5555;
+border-radius:15px;
+border:none;
+float:right;
+color:white;
+} 
+.container  .todo-wrapper ul li  .edit{
+background-color:#99cc99;
+border-radius:15px;
+margin-right:.9rem;
+border:none;
+float:right;
+color:white;
+}
